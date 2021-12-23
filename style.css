@@ -9,22 +9,26 @@
 }
 
 .main{
-  width: 500px;
-  display: flex;
-  flex-direction: column;
+  /* width: 500px; */
+  /* display: flex;
+  flex-direction: column; */
   /* align-items: center; */
-  padding-inline:25px;
+  /* padding-inline:25px; */
 }
+
 
 h1 {
   font-size: 48px;
   color: #2e6ad3;
-  padding-block: 45px;
+  /* padding-block: 45px; */
+  text-align: center;
+  margin: 45px 0;
 }
 
 h2 { 
   font-size: 32px;
   color: #104c90;
+  margin: 0 0 10px;
 }
 
 .img-a {
@@ -39,6 +43,9 @@ p {
 
 .container {
   background-color: #f1f1f1;
+  width: 450px;
+  padding:25px;
+  margin: 0 auto;
 }
 
 .accent-color {
@@ -55,4 +62,8 @@ a:active {
 
 a:hover {
   background-color: blanchedalmond;
+}
+
+.read-more {
+  margin: 0;
 }
