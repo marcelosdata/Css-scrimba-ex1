@@ -1,0 +1,38 @@
+/* learn about reset css */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding-inline:25px;
+}
+
+h1 {
+  font-size: 48px;
+  color: #2e6ad3;
+  padding-block: 45px;
+}
+
+h2 { 
+  font-size: 32px;
+  color: #104c90;
+}
+
+.img-a {
+  padding-bottom: 25px;
+}
+
+p {
+  font-size: 16px;
+  padding-bottom: 9px;
+}
+
+.container {
+  background-color: #f1f1f1;
+}
